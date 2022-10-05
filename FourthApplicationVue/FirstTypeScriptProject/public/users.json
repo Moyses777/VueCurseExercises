@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Moises Camacho",
+        "username": "luismoisescamacho@gmail.com",
+        "password": "123456",
+        "isLogged": false 
+    },
+    {
+        "name": "Javier Lopez",
+        "username": "javier.lopez@gmail.com",
+        "password": "123456",
+        "isLogged": false 
+    },
+    {
+        "name": "Eduardo Perez",
+        "username": "eduardo.perez@gmail.com",
+        "password": "123456",
+        "isLogged": false  
+    },
+    {
+        "name": "Antonio Mendoza",
+        "username": "antonio.mendoza@gmail.com",
+        "password": "123456",
+        "isLogged": false  
+    },
+    {
+        "name": "Alejandro Estrada",
+        "username": "alejandro.estrada@gmail.com",
+        "password": "123456",
+        "isLogged": false  
+    },
+    {
+        "name": "Ricardo Hernandez",
+        "username": "ricardo.hernandez@gmail.com",
+        "password": "123456",
+        "isLogged": false  
+    },
+    {
+        "name": "Juan Pablo",
+        "username": "juan.pablo@gmail.com",
+        "password": "123456",
+        "isLogged": false  
+    }
+]

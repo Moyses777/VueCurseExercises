@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="https://unpkg.com/vue@next"></script>
+    <header>
+        <h1>Vue Course Goals</h1>
+    </header>
+    <section id="user-goal">
+        <h2>My Course Goal</h2>
+        <p>{{ newMessage }}</p>
+        <P v-html="newMessageHtml"></P>
+        <p>To know more about <a v-bind:href="vueLink">Vue.js</a></p>
+        <p>{{ outPutGoal() }}</p>
+
+        <br>
+        <button @click="addNumber"> Add </button>
+        <button @click="removeNumber"> Remove </button>
+        <p>Result: {{ counter }}</p>
+        <input type="text" v-bind:value="name" @input="setName" @keyup.enter="setConfirmedName">
+        <button @click="resetInput">Reset Input</button>
+        <p>Your name: {{ outputFullname() }}</p>
+        <br>
+        <form action="" @submit.prevent="submitForm">
+            <input type="text">
+            <button>Sign Up</button>
+        </form>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>

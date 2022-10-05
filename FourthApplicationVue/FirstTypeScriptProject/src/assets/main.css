@@ -1,0 +1,5 @@
+@import "./base.css";
+
+.disabledscreen {
+    opacity: 0.5;
+}
